@@ -29,7 +29,7 @@ namespace ProjeSon.Models.About
             public DateTime DateOfBirth { get; set; }
 
             [DisplayName("Telefon Numarası (Başında Alan Numarası Olmadan Giriniz)")]
-            public int Phone { get; set; }
+            public double Phone { get; set; }
         
     }
 }

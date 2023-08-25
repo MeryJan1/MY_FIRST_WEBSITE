@@ -15,42 +15,20 @@ namespace ProjeSon.Models.Portföy
         [DisplayName("Konu Başlığı")]
         [StringLength(36, ErrorMessage = "Bu alan 36 karakterden fazla olamaz.")]
         public string Name1 { get; set; }
-        [DisplayName("Dosya konumu")]
+        [DisplayName("Resim Dosyasının Konumu")]
         public string PhotoPath11 { get; set; }
-        [DisplayName("Dosya konumu")]
+        [DisplayName("Resim Dosyasının Konumu")]
         public string PhotoPath12 { get; set; }
-        [DisplayName("Dosya konumu")]
+        [DisplayName("Resim Dosyasının Konumu")]
         public string PhotoPath13 { get; set; }
+        [DisplayName("Resim Dosyasının Konumu")]
+        public string PhotoPath14 { get; set; }
+        [DisplayName("Resim Dosyasının Konumu")]
+        public string PhotoPath15 { get; set; }
+        [DisplayName("Resim Dosyasının Konumu")]
+        public string PhotoPath16 { get; set; }
 
-        [DisplayName("Konu Başlığı")]
-        [StringLength(36, ErrorMessage = "Bu alan 36 karakterden fazla olamaz.")]
-        public string Name2 { get; set; }
-        [DisplayName("Dosya konumu")]
-        public string PhotoPath21 { get; set; }
-        [DisplayName("Dosya konumu")]
-        public string PhotoPath22 { get; set; }
-        [DisplayName("Dosya konumu")]
-        public string PhotoPath23 { get; set; }
 
-        [DisplayName("Konu Başlığı")]
-        [StringLength(36, ErrorMessage = "Bu alan 36 karakterden fazla olamaz.")]
-        public string Name3 { get; set; }
-        [DisplayName("Dosya konumu")]
-        public string PhotoPath31 { get; set; }
-        [DisplayName("Dosya konumu")]
-        public string PhotoPath32 { get; set; }
-        [DisplayName("Dosya konumu")]
-        public string PhotoPath33 { get; set; }
-
-        [DisplayName("Konu Başlığı")]
-        [StringLength(36, ErrorMessage = "Bu alan 36 karakterden fazla olamaz.")]
-        public string Name4 { get; set; }
-        [DisplayName("Dosya konumu")]
-        public string PhotoPath41 { get; set; }
-        [DisplayName("Dosya konumu")]
-        public string PhotoPath42 { get; set; }
-        [DisplayName("Dosya konumu")]
-        public string PhotoPath43 { get; set; }
 
     }
 }

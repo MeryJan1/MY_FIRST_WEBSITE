@@ -1,0 +1,51 @@
+﻿@model ProjeSon.Models.Services.ServicesInfo
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ServicesInfo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Icon1URL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Icon1URL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Title1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.String11)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.String11)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.String12)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.String12)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

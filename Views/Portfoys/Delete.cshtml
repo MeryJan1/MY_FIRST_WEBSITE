@@ -1,0 +1,81 @@
+﻿@model ProjeSon.Models.Portföy.Portfoy
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Portfoy</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhotoPath11)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhotoPath11)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhotoPath12)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhotoPath12)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhotoPath13)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhotoPath13)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhotoPath14)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhotoPath14)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhotoPath15)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhotoPath15)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhotoPath16)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhotoPath16)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

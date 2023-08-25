@@ -1,0 +1,75 @@
+﻿@model ProjeSon.Models.Portföy.Portfoy
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Portfoy</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhotoPath11)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhotoPath11)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhotoPath12)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhotoPath12)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhotoPath13)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhotoPath13)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhotoPath14)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhotoPath14)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhotoPath15)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhotoPath15)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhotoPath16)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhotoPath16)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

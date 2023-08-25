@@ -1,0 +1,70 @@
+﻿@model IEnumerable<ProjeSon.Models.Portföy.Portfoy>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhotoPath11)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhotoPath12)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhotoPath13)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhotoPath14)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhotoPath15)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhotoPath16)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhotoPath11)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhotoPath12)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhotoPath13)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhotoPath14)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhotoPath15)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhotoPath16)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

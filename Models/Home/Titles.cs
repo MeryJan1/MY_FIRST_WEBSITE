@@ -18,13 +18,5 @@ namespace ProjeSon.Models.Home
         public string Skill { get; set; }
     }
 
-    public class Name
-    {
-        [Key]
-        public int Id { get; set; }
-
-        [DisplayName("İsim Soyisim")]
-        [StringLength(128, ErrorMessage = "Bu alan 128 karakterden fazla olamaz.")]
-        public string Name_Surname { get; set; }
-    }
+   
 }

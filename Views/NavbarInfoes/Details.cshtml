@@ -1,0 +1,99 @@
+﻿@model ProjeSon.Models.Navbar.NavbarInfo
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NavbarInfo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Logo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Logo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.section1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.section1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.section2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.section2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.section3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.section3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.section4)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.section4)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.section5)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.section5)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Github)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Github)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Linkedin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Linkedin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Youtube)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Youtube)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.İnstagram)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.İnstagram)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
