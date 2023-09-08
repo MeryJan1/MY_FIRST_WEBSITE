@@ -14,7 +14,7 @@ namespace ProjeSon.Models.About
         public int Id { get; set; }
 
         [DisplayName("Hakkında Kısmı")]
-        [StringLength(624, ErrorMessage = "Bu alan 624 karakterden fazla olamaz.")]
+
         public string AboutMe { get; set; }
 
     }

@@ -128,7 +128,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\Admin\About\AboutsController.cs" />
+    <Compile Include="Controllers\Admin\About\aboutsController.cs" />
     <Compile Include="Controllers\Admin\About\ProfilsController.cs" />
     <Compile Include="Controllers\Admin\About\SkillsController.cs" />
     <Compile Include="Controllers\Admin\contact\InformationController.cs" />
@@ -369,21 +369,6 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_AdminLayout.cshtml" />
-    <Content Include="Views\Skills\Create.cshtml" />
-    <Content Include="Views\Skills\Delete.cshtml" />
-    <Content Include="Views\Skills\Details.cshtml" />
-    <Content Include="Views\Skills\Edit.cshtml" />
-    <Content Include="Views\Skills\Index.cshtml" />
-    <Content Include="Views\abouts\Create.cshtml" />
-    <Content Include="Views\abouts\Delete.cshtml" />
-    <Content Include="Views\abouts\Details.cshtml" />
-    <Content Include="Views\abouts\Edit.cshtml" />
-    <Content Include="Views\abouts\Index.cshtml" />
-    <Content Include="Views\Profils\Create.cshtml" />
-    <Content Include="Views\Profils\Delete.cshtml" />
-    <Content Include="Views\Profils\Details.cshtml" />
-    <Content Include="Views\Profils\Edit.cshtml" />
-    <Content Include="Views\Profils\Index.cshtml" />
     <Content Include="Views\Information\Create.cshtml" />
     <Content Include="Views\Information\Delete.cshtml" />
     <Content Include="Views\Information\Details.cshtml" />
@@ -419,6 +404,21 @@
     <Content Include="Views\ServicesInfoes\Details.cshtml" />
     <Content Include="Views\ServicesInfoes\Edit.cshtml" />
     <Content Include="Views\ServicesInfoes\Index.cshtml" />
+    <Content Include="Views\abouts\Create.cshtml" />
+    <Content Include="Views\abouts\Delete.cshtml" />
+    <Content Include="Views\abouts\Details.cshtml" />
+    <Content Include="Views\abouts\Edit.cshtml" />
+    <Content Include="Views\abouts\Index.cshtml" />
+    <Content Include="Views\Profils\Create.cshtml" />
+    <Content Include="Views\Profils\Delete.cshtml" />
+    <Content Include="Views\Profils\Details.cshtml" />
+    <Content Include="Views\Profils\Edit.cshtml" />
+    <Content Include="Views\Profils\Index.cshtml" />
+    <Content Include="Views\Skills\Create.cshtml" />
+    <Content Include="Views\Skills\Delete.cshtml" />
+    <Content Include="Views\Skills\Details.cshtml" />
+    <Content Include="Views\Skills\Edit.cshtml" />
+    <Content Include="Views\Skills\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

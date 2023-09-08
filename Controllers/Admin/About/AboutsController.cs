@@ -11,7 +11,7 @@ using ProjeSon.Models.DataContext;
 
 namespace ProjeSon.Controllers.Admin.About
 {
-    public class AboutsController : Controller
+    public class aboutsController : Controller
     {
         private PersonelSiteDB db = new PersonelSiteDB();
 

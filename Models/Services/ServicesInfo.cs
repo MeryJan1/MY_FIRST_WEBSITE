@@ -21,11 +21,11 @@ namespace ProjeSon.Models.Services
         public string Title1 { get; set; }
 
         [DisplayName("Servis İçeriği")]
-        [StringLength(36, ErrorMessage = "Bu alan 36 karakterden fazla olamaz.")]
+        [StringLength(192, ErrorMessage = "Bu alan 36 karakterden fazla olamaz.")]
         public string String11 { get; set; }
 
         [DisplayName("Servis İçeriği")]
-        [StringLength(36, ErrorMessage = "Bu alan 36 karakterden fazla olamaz.")]
+        [StringLength(192, ErrorMessage = "Bu alan 36 karakterden fazla olamaz.")]
         public string String12 { get; set; }
 
         

@@ -98,18 +98,23 @@ namespace ProjeSon.Controllers.Admin.About
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             Skills skills = db.Skillsinfos.Find(id);
+            if (skills == null)
+            {
+                return HttpNotFound();
+            }
+            return View(skills);
+        }
+
+        // POST: Skills/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(int id)
+        {
+            Skills skills = db.Skillsinfos.Find(id);
             db.Skillsinfos.Remove(skills);
             db.SaveChanges();
             return RedirectToAction("Index");
         }
-
-        // POST: Skills/Delete/5
-        /*[HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
-        {
-            
-        }*/
 
         protected override void Dispose(bool disposing)
         {
